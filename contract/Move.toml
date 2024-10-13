@@ -1,0 +1,11 @@
+[package]
+name = "RentalAgreement"
+version = "0.0.0"
+
+[dependencies]
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-framework", rev = "mainnet" }
+
+[addresses]
+my_addrx = "6d1adc4ecf58b8d7f4cc72cca9922fd61af7078f42976f59a8e6de467d34572f"
+sys_addrx="0xca10b0176c34f9a8315589ff977645e04497814e9753d21f7d7e7c3d83aa7b57"
+std = "0x1"
